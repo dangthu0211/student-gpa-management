@@ -72,7 +72,7 @@ public class Student implements Serializable {
 	}
 
 	public String toString() {
-        return "entity.Teacher{" +
+        return "entity.Student{" +
                 "id=" + id +
                 ", name='" + this.getName() + '\'' +
                 ", address='" + this.getAddress() + '\'' +
