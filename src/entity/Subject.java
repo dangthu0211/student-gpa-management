@@ -71,9 +71,9 @@ private static int AUTO_ID = -1;
 	public void inputInfo() {
         System.out.print("Nhập tên môn học: ");
         this.name = new Scanner(System.in).nextLine();
-        System.out.print("Nhập tổng số tiết: ");
+        System.out.print("Nhập số đơn vị học trình: ");
         this.unit = new Scanner(System.in).nextInt();
-        System.out.print("Nhập số tiết lý thuyết: ");
+        System.out.print("Nhập loại môn học: ");
         this.type = new Scanner(System.in).nextLine();
     }
 }
